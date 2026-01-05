@@ -8,8 +8,8 @@ body {
   font-family: "Lucida Sans", sans-serif;
   font-size: 19px; 
   line-height: 1.8; 
-  background-color: #faf9ff;
-  color: #333;
+  background-color: #000000;
+  color: #000000;
 }
 
 /* Grid Layout */
@@ -27,9 +27,9 @@ body {
 
 .header {
   grid-area: header;
-  background: linear-gradient(135deg, #6a1b9a, #8e24aa);
+  background: linear-gradient(135deg, #000000, #8e24aa);
   text-align: center;
-  color: #fff;
+  color: #000000;
   padding: 1.5rem 0;
 }
 
@@ -66,7 +66,7 @@ body {
 
 .content {
   grid-area: main;
-  background-color: #fff;
+  background-color: #e9cced;
   border-radius: 8px;
   padding: 25px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -88,17 +88,17 @@ body {
 
 .facts {
   grid-area: facts;
-  background-color: #fef3c7;
+  background-color: #880aa7;
   padding: 20px;
   border-radius: 8px;
-  border-left: 5px solid #fbbf24;
+  border-left: 5px solid #000000;
   font-size: 2.2rem; 
 }
 
 .footer {
   grid-area: footer;
-  background-color: #0099cc;
-  color: white;
+  background-color: #880aa7;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px;
   border-radius: 8px;
@@ -117,7 +117,7 @@ body {
 /* Banner Animation */
 .banner {
   text-align: center;
-  background-color: #e0f2f1;
+  background-color: #e9cced;
   padding: 14px;
   font-size: 3.3rem; /* Slightly bigger text */
   animation: floatText 8s linear infinite;
@@ -158,7 +158,7 @@ body {
 }
 
 .menu a.active {
-  background-color: #0288d1;
+  background-color: #000000;
   border-radius: 6px;
   color: #fff;
 }
