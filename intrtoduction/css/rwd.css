@@ -6,8 +6,8 @@
 
 body {
   font-family: "Lucida Sans", sans-serif;
-  font-size: 17px;
-  line-height: 1.6;
+  font-size: 19px; /* ⬆️ Increased from 17px */
+  line-height: 1.75; /* More breathing room between lines */
   background-color: #faf9ff;
   color: #333;
 }
@@ -30,11 +30,11 @@ body {
   background: linear-gradient(135deg, #6a1b9a, #8e24aa);
   text-align: center;
   color: #fff;
-  padding: 1rem 0;
+  padding: 1.5rem 0; /* slightly more spacing for balance */
 }
 
 .header h1 {
-  font-size: 2rem;
+  font-size: 2.5rem; /* ⬆️ was 2rem */
 }
 
 .menu {
@@ -49,13 +49,14 @@ body {
 }
 
 .menu li {
-  padding: 12px;
+  padding: 14px;
 }
 
 .menu a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.2rem; /* ⬆️ larger menu text */
   transition: color 0.3s ease;
 }
 
@@ -67,21 +68,28 @@ body {
   grid-area: main;
   background-color: #fff;
   border-radius: 8px;
-  padding: 20px;
+  padding: 25px; /* more comfortable padding */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .content h2 {
   color: #6a1b9a;
-  margin-bottom: 0.5em;
+  font-size: 2rem; /* ⬆️ larger section heading */
+  margin-bottom: 0.6em;
+}
+
+.content p {
+  font-size: 1.1rem; /* ⬆️ readable body text */
+  margin-bottom: 0.8em;
 }
 
 .facts {
   grid-area: facts;
   background-color: #fef3c7;
-  padding: 15px;
+  padding: 20px;
   border-radius: 8px;
   border-left: 5px solid #fbbf24;
+  font-size: 1.1rem; /* ⬆️ consistent font size */
 }
 
 .footer {
@@ -89,8 +97,9 @@ body {
   background-color: #0099cc;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   border-radius: 8px;
+  font-size: 1rem; /* footer text consistent but slightly smaller */
 }
 
 .footer img {
@@ -102,8 +111,8 @@ body {
 .banner {
   text-align: center;
   background-color: #e0f2f1;
-  padding: 10px;
-  font-size: 18px;
+  padding: 12px;
+  font-size: 1.2rem; /* ⬆️ more visible text */
   animation: floatText 8s linear infinite;
 }
 
@@ -121,7 +130,20 @@ body {
       "menu main facts"
       "footer footer footer";
   }
+
+  body {
+    font-size: 20px; /* ⬆️ scale text up a bit for desktop */
+  }
+
+  .header h1 {
+    font-size: 2.8rem;
+  }
+
+  .content h2 {
+    font-size: 2.2rem;
+  }
 }
+
 .menu a.active {
   background-color: #0288d1;
   border-radius: 6px;
