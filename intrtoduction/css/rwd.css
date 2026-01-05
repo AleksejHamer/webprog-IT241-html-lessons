@@ -82,7 +82,7 @@ body {
 .content p,
 .content li,
 .facts li {
-  font-size: 1.2rem; /* was smaller before */
+  font-size: 2.2rem; /* was smaller before */
   margin-bottom: 0.8em;
 }
 
@@ -92,7 +92,7 @@ body {
   padding: 20px;
   border-radius: 8px;
   border-left: 5px solid #fbbf24;
-  font-size: 1.2rem; /* consistent with content */
+  font-size: 2.2rem; /* consistent with content */
 }
 
 .footer {
@@ -102,7 +102,7 @@ body {
   text-align: center;
   padding: 20px;
   border-radius: 8px;
-  font-size: 1.1rem; /* Larger footer text */
+  font-size: 2.1rem; /* Larger footer text */
 }
 
 .footer img {
@@ -139,21 +139,21 @@ body {
   }
 
   body {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .header h1 {
-    font-size: 2.8rem;
+    font-size: 3.8rem;
   }
 
   .content h2 {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
   }
 
   .content p,
   .content li,
   .facts li {
-    font-size: 1.25rem;
+    font-size: 2.25rem;
   }
 }
 
