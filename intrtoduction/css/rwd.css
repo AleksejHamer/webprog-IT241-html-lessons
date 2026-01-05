@@ -39,7 +39,7 @@ body {
 
 .menu {
   grid-area: menu;
-  background-color: #33b5e5;
+  background-color: #8e24aa;
   border-radius: 8px;
 }
 
@@ -97,8 +97,13 @@ body {
 
 .footer {
   grid-area: footer;
+<<<<<<< HEAD
+  background-color: #8e24aa;
+  color: white;
+=======
   background-color: #880aa7;
   color: rgb(0, 0, 0);
+>>>>>>> b52380167fed5c54aef822e4a799040941a6ddfa
   text-align: center;
   padding: 20px;
   border-radius: 8px;
