@@ -56,7 +56,7 @@ body {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.3rem; /* Larger menu text */
+  font-size: 2.2rem; /* Larger menu text */
   transition: color 0.3s ease;
 }
 
@@ -119,7 +119,7 @@ body {
   text-align: center;
   background-color: #e0f2f1;
   padding: 14px;
-  font-size: 1.3rem; /* Slightly bigger text */
+  font-size: 3.3rem; /* Slightly bigger text */
   animation: floatText 8s linear infinite;
 }
 
