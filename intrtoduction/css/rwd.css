@@ -122,3 +122,8 @@ body {
       "footer footer footer";
   }
 }
+.menu a.active {
+  background-color: #0288d1;
+  border-radius: 6px;
+  color: #fff;
+}
